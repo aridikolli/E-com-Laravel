@@ -14,7 +14,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home </a></li>
+                <li class="active"><a href="/">Home </a></li>
 
                 <li class="active"><a href="#">Orders </a></li>
 
@@ -37,7 +37,7 @@
                     $result=0;
                 }
  @endphp
-                <li><a href="#">Cart({{$result}})</a></li>
+                <li><a href="/cartlist">Cart({{$result}})</a></li>
 
                    @if(Session()->has('user'))
 

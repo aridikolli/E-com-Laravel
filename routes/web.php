@@ -23,3 +23,6 @@ Route::get('detail/{id}',[ProductController::class,'detail']);
 Route::get('/search',[ProductController::class,'search']);
 Route::post('/add_to_cart',[ProductController::class,'cart']);
 Route::get('logout',[ProductController::class,'logout']);
+Route::get('/cartlist',[ProductController::class,'cartlist']);
+Route::post('/delete_from_cart',[ProductController::class,'delete_from_cart']);
+Route::get('ordernow',[ProductController::class,'ordernow']);
